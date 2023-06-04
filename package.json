@@ -10,6 +10,7 @@
     "docs-translate": "i18n t -P docs"
   },
   "dependencies": {
+    "@i18n-pro/react": "latest",
     "i18n-pro": "2.0.0-alpha.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
