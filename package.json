@@ -1,0 +1,31 @@
+{
+  "name": "react-i18n-pro-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "docs": "jtm run",
+    "docs-translate": "i18n t -P docs"
+  },
+  "dependencies": {
+    "i18n-pro": "2.0.0-alpha.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@eyelly/prettier-config": "^1.0.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "jsx-to-md": "^0.11.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  },
+  "stackblitz": {
+    "installDependencies": true,
+    "startCommand": "npx vite"
+  }
+}
