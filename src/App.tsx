@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Provider, useI18n } from '@i18n-pro/react'
+import { I18nProvider, useI18n } from '@i18n-pro/react'
 import { render } from 'react-dom'
 import initI18nState from './i18n'
 import './index.css'
@@ -133,8 +133,8 @@ function App() {
 }
 
 render(
-  <Provider {...initI18nState}>
+  <I18nProvider {...initI18nState}>
     <App />
-  </Provider>,
+  </I18nProvider>,
   document.getElementById('root') as HTMLElement,
 )
