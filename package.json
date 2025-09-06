@@ -10,8 +10,8 @@
     "docs-i18n": "i18n t -P docs"
   },
   "dependencies": {
-    "@i18n-pro/react": "2.0.0-alpha.2",
-    "i18n-pro": "3.0.0-alpha.2",
+    "@i18n-pro/react": "2.0.0",
+    "i18n-pro": "3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
